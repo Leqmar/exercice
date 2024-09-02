@@ -1,0 +1,121 @@
+.container {
+    background-color: rgb(247, 152, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px;
+    width: 450px;
+}
+
+
+#boite {
+    background-color: white;
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#Next {
+    background-color: brown;
+    color: antiquewhite;
+
+}
+
+
+.button {
+    padding: 3%;
+    border-radius: 6px;
+    background-color: white;
+    align-self: stretch;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    padding-inline: 20px;
+    padding-block: 8px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+img {
+    height: 15px;
+    padding-block: 2px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4px;
+}
+
+.title {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cross {
+    background-color: rgb(247, 152, 199);
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+hr {
+    width: 200px;
+    margin-block: 20px;
+}
+
+p {
+    margin-left: 10px;
+    font-weight: bold
+}
+
+
+
+ 
+@media screen and (min-width:800px) {
+    #boite {
+        width: 700px;
+        height: 670px;
+    }
+    .container{
+        width: auto;
+        height: 800px
+    }
+
+    .cross {
+        background-color: white;
+            }       
+            
+    }
+
+
+@media screen and (max-width:799px) {
+#boite {
+        height: 600px;
+        width: 400px;
+        }
+    }
+    
+    
